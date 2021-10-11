@@ -1,0 +1,392 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Keshav Nursery</title>
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Favicons
+    ================================================== -->
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"  href="{% static 'css/bootstrap.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'fonts/font-awesome/css/font-awesome.css' %}">
+
+<!-- Slider
+    ================================================== -->
+<link href="{% static 'css/owl.carousel.css' %}" rel="stylesheet" media="screen">
+<link href="{% static 'css/owl.theme.css' %}" rel="stylesheet" media="screen">
+
+<!-- Stylesheet
+    ================================================== -->
+<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/nivo-lightbox/nivo-lightbox.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/nivo-lightbox/default.css' %}">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body background=  "{% static 'img/about-3.jpg' %}" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top"  >
+<!-- Navigation
+    ==========================================-->
+<nav id="menu" class="navbar navbar-default navbar-fixed-top">
+  <div class="container"> 
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand page-scroll" href="#page-top">Keshav Nursery</a> </div>
+    
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href='/register/' class="page-scroll">Register</a></li>
+        <li><a href='/loginv/' class="page-scroll">Login</a></li>
+        <li><a href="#about" class="page-scroll">About</a></li>
+        <li><a href="#services" class="page-scroll">Category</a></li>
+        <li><a href="#portfolio" class="page-scroll">Gallery</a></li>
+        <li><a href="#testimonials" class="page-scroll">Reviews</a></li>
+        <li><a href="#contact" class="page-scroll">Contact</a></li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse --> 
+  </div>
+  <!-- /.container-fluid --> 
+</nav>
+<!-- Header -->
+<header id="header">
+  <div class="intro">
+    <div class="overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 intro-text">
+            <h1>Keshav Nursery</h1>
+            <p>Established in the year 2006, Keshav Nursery in Satellite, Ahmedabad is a top player in the category Plant Nurseries in the Ahmedabad.</p>
+            <a href="#about" class="btn btn-custom btn-lg page-scroll">More Info</a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- About Section -->
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        <div class="about-text">
+          <h2>Welcome to <span>Keshav Nursery</span></h2>
+          <hr>
+          <p>Keshav Nursery in Ahmedabad is one of the leading businesses in the Plant Nurseries. Also known for Plant Nurseries, Plantation Services, Garden Contractors, Nursery Plant Flower, Tree Nurseries, Bonsai Plant Dealers, Vertical Landscape Gardening Services, Indoor Plant Dealers and much more. Find Address, Contact Number, Reviews & Ratings, Photos, Maps of Keshav Nursery, Ahmedabad. Keshav Nursery in Satellite has a wide range of products and / or services to cater to the varied requirements of their customers. The staff at this establishment are courteous and prompt at providing any assistance. They readily answer any queries or questions that you may have.</p>
+          <a href="#services" class="btn btn-custom btn-lg page-scroll">View All Services</a> </div>
+      </div>
+      <div class="col-xs-12 col-md-3">
+        <div class="about-media"> <img src="{% static 'img/flowers.jpg' %}" alt=" "> </div>
+        <div class="about-desc">
+          <h3>Flowers</h3>
+          <p>The primary purpose of the flower is reproduction. Since the flowers are the reproductive organs of the plant, they mediate the joining of the sperm, contained within pollen, to the ovules — contained in the ovary. Pollination is the movement of pollen from the anthers to the stigma.</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-3">
+        <div class="about-media"> <img src="{% static 'img/plants.jpg' %}" alt=" "> </div>
+        <div class="about-desc">
+          <h3>Plants </h3>
+          <p>Plants are one of six big groups (kingdoms) of living things. They are autotrophic eukaryotes, which means they have complex cells, and make their own food. Usually they cannot move. Plants include familiar types such as trees, herbs, bushes, grasses, vines, ferns, mosses, and green algae</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Services Section -->
+<div id="services">
+  <div class="container">
+    <div class="col-md-10 col-md-offset-1 section-title text-center">
+      <h2>Category</h2>
+      <hr>
+      <p>A nursary is a place where plants are propagated and grown to a desired age.</p>
+    </div>
+    <div class="row">
+      <div class="col-md-3 text-center">
+        <div class="service-media"> <img src="{% static 'img/services/all-plants.jpg' %}" alt=" "> </div>
+        <div class="service-desc">
+          <h3>All Plants</h3>
+          <p>Plants are mainly multicelluar organisms, predominanly photosynthetic eukaryotes of the kigdom plants. The scientific study of plants, known as botany.</p>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class="service-media"> <img src="{% static 'img/services/indoor-plants.jpg' %}" alt=" "> </div>
+        <div class="service-desc">
+          <h3>Indoor Plants</h3>
+          <p>Indoor plants are plants that grow indoors. There are a variety of tropical plants, like palms, that thrive in indoor environments.Studies have also proven that indoor plants improve concentration and productivity</p>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class="service-media"> <img src="{% static 'img/services/outdoor-plants.png' %}" alt=" "> </div>
+        <div class="service-desc">
+          <h3>Outdoor plants</h3>
+          <p>Outdoor plants fall into a number of different categories.Broad categories include trees,shrubs,flowering platns,non-flowering plants and succulents.</p>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class="service-media"> <img src="{% static 'img/services/flowers.jpg' %}" alt=" "> </div>
+        <div class="service-desc">
+          <h3>Flowers</h3>
+          <p>flowers are the reproductive organs of the plant, they mediate the joining of the sperm, contained within pollen, to the ovules — contained in the ovary. Pollination is the movement of pollen from the anthers to the stigma.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Gallery Section -->
+<div id="portfolio">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2>Project Gallery</h2>
+      <hr>
+      <p>Some onamges of the all types of flower that you can see. </p>
+    </div>
+    <div class="categories">
+      <ul class="cat">
+        <li>
+          <ol class="type">
+            <li><a href="#" data-filter="*" class="active">All</a></li>
+            <li><a href="#" data-filter=".lawn">Indoor Plants</a></li>
+            <li><a href="#" data-filter=".garden">Outdoor Plants</a></li>
+            <li><a href="#" data-filter=".planting">Flowering</a></li>
+          </ol>
+        </li>
+      </ul>
+      <div class="clearfix"></div>
+    </div>
+    <div class="row">
+      <div class="portfolio-items">
+        <div class="col-sm-6 col-md-4 lawn">
+          <div class="portfolio-item">
+            <!--<div class="hover-bg"> <a href="{% static 'img/portfolio/lily.png' %}" title="Peace Lily Plant" data-lightbox-gallery="gallery1">-->
+              <div class="hover-bg"> <a href="/lily/" title="Peace Lily Plant" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <h4>Peace Lily Plant</h4>
+              </div>
+              <img src="{% static 'img/portfolio/peacelilyplant-1.jpg' %}" class="img-responsive" alt="Peace Lily Plant"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 planting">
+          <div class="portfolio-item">
+           <!-- <div class="hover-bg"> <a href="{% static 'img/portfolio/lavender.png' %}" title="Lavender" data-lightbox-gallery="gallery1">-->
+             <div class="hover-bg"> <a href="/lavender/" title="Lavender" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <h4>Lavender </h4>
+              </div>
+              <img src="{% static 'img/portfolio/lavender.jpg' %}" class="img-responsive" alt="Lavender"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 lawn">
+          <div class="portfolio-item">
+           <!-- <div class="hover-bg"> <a href="{% static 'img/portfolio/indoor.png' %}" title="Snake Indoor" data-lightbox-gallery="gallery1">-->
+            <div class="hover-bg"> <a href="/indoor/" title="Snake Indoor" data-lightbox-gallery="gallery1">  
+              <div class="hover-text">
+                <h4>Snake Indoor</h4>
+              </div>
+              <img src="{% static 'img/portfolio/snake-1.jpg' %}" class="img-responsive" alt="Snake Indoor"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 lawn">
+          <div class="portfolio-item">
+            <!--<div class="hover-bg"> <a href="{% static 'img/portfolio/draceana.png' %}" title="Dracaena Warneckii Plant" data-lightbox-gallery="gallery1">-->
+              <div class="hover-bg"> <a href="/draceana/" title="Dracaena Warneckii Plant" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <h4>Dracaena Warneckii Plant</h4>
+              </div>
+              <img src="{% static 'img/portfolio/dracaenawarneckiiplant-1.jpg' %}" class="img-responsive" alt="Dracaena Warneckii Plant"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 planting">
+          <div class="portfolio-item">
+            <!--<div class="hover-bg"> <a href="{% static 'img/portfolio/marigold.png' %}" title="Marigold Flower" data-lightbox-gallery="gallery1">-->
+              <div class="hover-bg"> <a href="/marigold/" title="Marigold Flower" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <h4>Marigold Flower</h4>
+              </div>
+              <img src="{% static 'img/portfolio/marigold.jpg' %}" class="img-responsive" alt="Marigold Flower"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 garden">
+          <div class="portfolio-item">
+            <!--<div class="hover-bg"> <a href="{% static 'img/portfolio/lemon.png' %}" title="Lemon Croton" data-lightbox-gallery="gallery1">-->
+              <div class="hover-bg"> <a href="/lemon/" title="Lemon Croton" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <h4>Lemon Croton</h4>
+              </div>
+              <img src="{% static 'img/portfolio/lemon_croton.jpeg' %}" class="img-responsive" alt="Lemon Croton"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 garden">
+          <div class="portfolio-item">
+            <!--<div class="hover-bg"> <a href="{% static 'img/portfolio/ipomoea.png' %}" title="Ipomoea" data-lightbox-gallery="gallery1">-->
+               <div class="hover-bg"> <a href="/ipomoea/" title="Ipomoea" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <h4>Ipomoea</h4>
+              </div>
+              <img src="{% static 'img/portfolio/ipomoea-1.jpg' %}" class="img-responsive" alt="Ipomoea"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 lawn">
+          <div class="portfolio-item">
+            <!--<div class="hover-bg"> <a href="{% static 'img/portfolio/queen.png' %}" title="Pothos Marble Queen Plant" data-lightbox-gallery="gallery1">-->
+              <div class="hover-bg"> <a href="/queen/" title="Pothos Marble Queen Plant" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <h4>Pothos Marble Queen Plant</h4>
+              </div>
+              <img src="{% static 'img/portfolio/pothosmarblequeenplant-1.jpg' %}" class="img-responsive" alt="Pothos Marble Queen Plant"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 planting">
+          <div class="portfolio-item">
+            <!--<div class="hover-bg"> <a href="{% static 'img/portfolio/rose.png' %}" title="ROSE" data-lightbox-gallery="gallery1">-->
+              <div class="hover-bg"> <a href="/rose/" title="ROSE" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <h4>ROSE</h4>
+              </div>
+              <img src="{% static 'img/portfolio/rose.jpg' %}" class="img-responsive" alt="ROSE"> </a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Reviews Section -->
+<div id="testimonials" class="text-center">
+  <div class="overlay">
+    <div class="container">
+      <div class="section-title">
+        <h2>Reviews</h2>
+        <hr>
+      </div>
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+<!--           <div id="testimonials" class="owl-carousel owl-theme">
+ -->            <div class="item">
+              <p>"Good variety of plants, decorative pots available in affordable prices. One should visit..."</p>
+              <p>- Durgesh Shah </p>
+            </div>
+            <div class="item">
+              <p>"Bought this bamboo and ceramic planter. Very helpful, friendly staff. I live a bit away from them, but I keep coming here because if their welcoming attitude."</p>
+              <p>- Abe Parker</p>
+            </div>
+            <div class="item">
+              <p>"Good Nursery facility of crops providing all solutions at a single place. It has variety of plant species from outdoor, garden and indoor ones. It is a good place located near Prernatirth derasar. They also provide home delivery option. A place of choice if you want to buy plants nearby. Prices are bit on higher end."</p>
+              <p>- Maulik Gupta</p>
+            </div>
+            <div class="item">
+              <p>"Lovely plant nursery, with a whole variety of pots and plants and helpful staff!"</p>
+              <p>- Lauren K</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Contact Section -->
+<div id="contact" class="text-center">
+  <div class="container">
+    <div class="section-title text-center">
+      <h2>Contact Us</h2>
+      <hr>
+    </div>
+    <div class="col-md-10 col-md-offset-1 contact-info">
+      <div class="col-md-4">
+        <h3>Address</h3>
+        <hr>
+        <div class="contact-item">
+          <p>Om Tower, Satellite, Ahmedabad - 380015, </p>
+          <p>Beside Abhishri Complex, Opposite Star Bazaa</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <h3>Working Hours</h3>
+        <hr>
+        <div class="contact-item">
+          <p>Monday 9:00 am - 10:00 pm </p>
+          <p>Tuesday 9:00 am - 10:00 pm</p>
+          <p>Wednesday 9:00 am - 10:00 pm</p>
+          <p>Thursday 9:00 am - 10:00 pm</p>
+          <p>Friday 9:00 am - 10:00 pm</p>
+          <p>Saturday 9:00 am - 10:00 pm </p>
+          <p>Sunday 9:00 am - 10:00 pm</p>
+          <h6>(Working hours might be change)</h6>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <h3>Contact Info</h3>
+        <hr>
+        <div class="contact-item">
+          <p>Karanbhai (Owner)</p>
+          <p>Phone: 079-47067944</p>
+          <p>Phone: 096245 40062</p>
+          <p>IndiaMart: https://www.indiamart.com/keshav-nursery/</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-8 col-md-offset-2">
+      <h3>Leave us a message</h3>
+      <form name="sentMessage" id="contactForm" novalidate>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+          <p class="help-block text-danger"></p>
+        </div>
+        <div id="success"></div>
+        <button type="submit" class="btn btn-custom btn-lg">Send Message</button>
+      </form>
+    </div>
+  </div>
+</div>
+<!-- Footer Section -->
+<div id="footer">
+  <div class="container text-center">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="social">
+        <ul>
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="{% static 'js/jquery.1.11.1.js' %}"></script> 
+<script type="text/javascript" src="{% static 'js/bootstrap.js' %}"></script> 
+<script type="text/javascript" src="{% static 'js/SmoothScroll.js' %}"></script> 
+<script type="text/javascript" src="{% static 'js/nivo-lightbox.js' %}"></script> 
+<script type="text/javascript" src="{% static 'js/jquery.isotope.js' %}"></script> 
+<script type="text/javascript" src="{% static 'js/owl.carousel.js' %}"></script> 
+<script type="text/javascript" src="{% static 'js/jqBootstrapValidation.js' %}"></script> 
+<script type="text/javascript" src="{% static 'js/contact_me.js' %}"></script> 
+<script type="text/javascript" src="{% static 'js/main.js' %}"></script>
+</body>
+</html>
